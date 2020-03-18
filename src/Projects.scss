@@ -1,0 +1,13 @@
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 3%;
+    /* text-align: center; */
+    justify-content: center;
+    .project-card {
+        width: 18rem;
+        color: black;
+        margin: 3%;
+    }
+}
