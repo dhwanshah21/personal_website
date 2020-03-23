@@ -12,10 +12,15 @@ return (
             <img className="personal-image" src={personalImage} />
         </div>
         <div className="home-text-showcase">
-            &ldquo;
-            {summary}
-            &rdquo;
-        </div>
+        <span>
+            <h1><strong> &ldquo;Hi,</strong></h1>
+            <h2> I’m a Front End Developer who love to create interactive, responsive and easy to use web UI.&rdquo;</h2>
+        </span>            
+        <button type="button" class="btn btn-outline-warning btn-lg">
+            <a href="/about">Check Out More!</a>
+        </button>
+        </div> 
+        
     </div>
 )
 }

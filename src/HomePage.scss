@@ -8,13 +8,22 @@
         margin-top: 5%;
         justify-content: center;
         .personal-image {
-            width: 60%;
+            width: 56%;
             padding: 5%;
+            height: 86%;
         }
     }
     .home-text-showcase {
+        font-family: 'Arvo', serif;
+        font-size: 80px;
         width: 50%;
         margin-top: 5%;
         padding: 3%;
+        h1 {
+            display: flex;
+        }
+        h2 {
+            font-weight: 700;
+        }
     }
 }

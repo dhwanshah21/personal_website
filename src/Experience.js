@@ -1,13 +1,13 @@
 import React from 'react';
-import './Projects.scss';
+import './Experience.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Skills () {
+function Experience () {
     return (
         <div>
-            Skills Listed Here
+            Experience
         </div>
     )
 }
 
-export default Skills;
+export default Experience;
