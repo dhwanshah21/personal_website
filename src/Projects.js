@@ -4,7 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './bootstrap-social.css';
 function Projects () {
     return (
-        <div className="projects-list">
+        <div className=" container projects-content">
+            <div class="row">
+                <h2>Academic Projects</h2>
+            </div>
+            <br/>
+            <div class="row">
             <div class="card project-card">
             <div class="card-body">
                 <h5 class="card-title">Koob E-Book Application</h5>
@@ -85,9 +90,12 @@ function Projects () {
                     Source Code</a>
             </div>
             </div>
+            </div>
+            <div class="row">
             <button type="button" class="btn btn-outline-warning btn-lg">
             <a href="/experience">Check Out Experience</a>
             </button>
+            </div>
         </div>
     )
 }

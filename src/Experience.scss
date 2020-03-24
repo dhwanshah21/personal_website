@@ -1,0 +1,17 @@
+.experience-content {
+    margin: 5% 0;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .card {
+        color: black !important;
+        .technologies-list {
+            font-weight: 600;
+        }
+    }
+    h2 {
+        font-size: 32px;
+        font-family: 'Berkshire Swash', cursive;
+    }
+}

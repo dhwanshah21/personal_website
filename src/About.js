@@ -52,7 +52,8 @@ function About () {
                 In addition to the Master’s degree in Computer Science, and 1 year of hands-on experience in web development, I am confident that I will be an asset to any organization.                    
                 </p>
                 <p>
-                I enjoy being challenged and working on projects that require me to work outside my comfort zone. Problem solving is a challenge that I have always loved. 
+                I enjoy being challenged and working on projects that require me to work outside my comfort zone. 
+                Problem solving is a challenging situation which I have always loved to be in. 
                 And during this journey I have acquired software development skills and I 
                 always look forward to learn new technologies which can be a huge learning curve for my career.               
                 </p>

@@ -1,8 +1,12 @@
-.projects-list {
+.projects-content {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     padding: 3%;
+    h2 {
+        font-size: 32px;
+        font-family: 'Berkshire Swash', cursive;
+    }
     /* text-align: center; */
     justify-content: center;
     .project-card {
