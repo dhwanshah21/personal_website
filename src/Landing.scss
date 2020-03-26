@@ -1,8 +1,14 @@
 .landing-content {
     margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .row {
+        justify-content: center;
+    }
     .stack-top {
-    width: 45%;
-    margin: auto;
+    box-shadow: 0px 20px 20px 20px rgba(0,0,0, 0.3);
+    width: 50%;
     border: 1px solid white;
      .card-img {
          opacity: 0.3;

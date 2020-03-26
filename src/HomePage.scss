@@ -2,22 +2,21 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    .image-identity {
-        width: 50%;
+    .col-md-6 {
         display: flex;
-        margin-top: 5%;
         justify-content: center;
+        align-items: center;
+    }
+    .image-identity {
+        display: flex;
         .personal-image {
-            width: 56%;
+            width: calc(100% - (100px));
             padding: 5%;
-            height: 86%;
         }
     }
     .home-text-showcase {
         font-family: 'Arvo', serif;
         font-size: 80px;
-        width: 50%;
-        margin-top: 5%;
         padding: 3%;
         h1 {
             display: flex;

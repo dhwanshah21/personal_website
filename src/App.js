@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, BrowserRouter, Redirect } from 'react-router-dom';
 import HomePage from './HomePage';
@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
     <div className="App">    
       <header className="App-header">
-      <nav class="navbar navbar-expand-lg navbar-light home-navbar">
+      <nav class="navbar navbar-expand-lg home-navbar">
         <a class="navbar-brand" href="/"> <strong>Dhwan Shah</strong></a>
         <div class="collapse navbar-collapse navbar-items" id="navbarNavAltMarkup">
           <div class="navbar-nav navbar-items">
