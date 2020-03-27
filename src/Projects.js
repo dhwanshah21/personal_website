@@ -92,9 +92,11 @@ function Projects () {
             </div>
             </div>
             <div class="row">
+            <a href="/experience">
             <button type="button" class="btn btn-outline-warning btn-lg">
-            <a href="/experience">Check Out Experience</a>
+            Check Out Experience
             </button>
+            </a>
             </div>
         </div>
     )

@@ -18,10 +18,12 @@ return (
                     <span>
                     <h1><strong> &ldquo;Hi,</strong></h1>
                     <h2> I’m a Front End Developer who loves to create interactive, responsive and easy to use web UI.&rdquo;</h2>
-                    </span>            
+                    </span>
+                    <a href="/about">          
                     <button type="button" class="btn btn-outline-warning btn-lg">
-                        <a href="/about">Check Out More!</a>
+                        Check Out More!
                     </button>
+                    </a>  
                 </div>
             </div> 
         </div>

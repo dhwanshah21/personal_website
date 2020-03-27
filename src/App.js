@@ -34,7 +34,6 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/experience" component={Experience} />
       </div>
-
       <footer class="footer navbar-fixed-bottom">
         <div>
           CONNECT
