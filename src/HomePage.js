@@ -10,7 +10,7 @@ return (
         <div class="row">
             <div class="col-md-6">
                 <div className="image-identity">
-                <img className="personal-image" src={personalImage} />
+                <img className="personal-image" src={personalImage} alt="Personal" />
                 </div>
             </div>
             <div class="col-md-6">

@@ -24,47 +24,53 @@ function About () {
             <div class="col-md-6 skills-description">
             <h2> My Skills</h2>
             <div class="row skills-tech-icons">
-              <img src={reactLogo} />
-              <img src={angularLogo} />
-              <img src={javascript} />
-              <img src={typescript} />
-              <img src={nodejs} />
-              <img src={bootstrap} />
-              <img src={html} />
-              <img src={sass} />
-              <img src={css} />
-              <img src={mysql} />
-              <img src={mongodb} />
-              <img src={docker} />
-              <img src={aws} />
-              <img src={gcp} />
-              <img src={github} />
-              <img src={vscode} />
+              <img src={reactLogo} alt="Technology Logo" />
+              <img src={angularLogo} alt="Technology Logo" />
+              <img src={javascript} alt="Technology Logo" />
+              <img src={typescript} alt="Technology Logo" />
+              <img src={nodejs} alt="Technology Logo" />
+              <img src={bootstrap} alt="Technology Logo" />
+              <img src={html} alt="Technology Logo" />
+              <img src={sass} alt="Technology Logo" />
+              <img src={css} alt="Technology Logo" />
+              <img src={mysql} alt="Technology Logo" />
+              <img src={mongodb} alt="Technology Logo" />
+              <img src={docker} alt="Technology Logo" />
+              <img src={aws} alt="Technology Logo" />
+              <img src={gcp} alt="Technology Logo" />
+              <img src={github} alt="Technology Logo" />
+              <img src={vscode} alt="Technology Logo" />
             </div>
             </div>
            <div class="col-md-6 about-description">
-                <h2> My Story</h2>
-                <p>
-                <b>Seeking a Full-Time Software Engineer Opportunity</b>
-                </p>
-                <p>
-                I am a performance driven and skillful engineer with good academic record looking for a challenging software development opportunity to advance the career.
-                In addition to the Master’s degree in Computer Science, and 1 year of hands-on experience in web development, I am confident that I will be an asset to any organization.                    
-                </p>
-                <p>
-                I enjoy being challenged and working on projects that require me to work outside my comfort zone. 
-                Problem solving is a challenging situation which I have always loved to be in. 
-                And during this journey I have acquired software development skills and I 
-                always look forward to learn new technologies which can be a huge learning curve for my career.               
-                </p>
-                <p>
-                If not in front of the laptops or desktops, I love to play different outdoor sports like soccer, volleyball and badminton.
-                I love to travel and also do some potential work contributing to the community.                   
-                </p>
-                <button type="button" class="btn btn-outline-warning btn-lg">
-                <a href="/projects">Check Out Projects</a>
-                </button>
-           </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title"> My Story</h2>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                        <b>Seeking a Full-Time Software Engineer Opportunity</b>
+                        </h6>
+                        <p>
+                        I am a performance driven and skillful engineer with good academic record looking for a challenging software development opportunity to advance the career.
+                        In addition to the Master’s degree in Computer Science, and 1 year of hands-on experience in web development, I am confident that I will be an asset to any organization.                    
+                        </p>
+                        <p>
+                        I enjoy being challenged and working on projects that require me to work outside my comfort zone. 
+                        Problem solving is a challenging situation which I have always loved to be in. 
+                        And during this journey I have acquired software development skills and I 
+                        always look forward to learn new technologies which can be a huge learning curve for my career.               
+                        </p>
+                        <p>
+                        If not in front of the laptops or desktops, I love to play different outdoor sports like soccer, volleyball and badminton.
+                        I love to travel and also do some potential work contributing to the community.                   
+                        </p>
+                        <a href="/projects">
+                        <button type="button" class="btn btn-outline-warning btn-lg">
+                        Check Out Projects
+                        </button>
+                        </a>
+                        </div>
+                    </div>
+                </div>
            </div>
         </div>
     )

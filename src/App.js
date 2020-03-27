@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Route, BrowserRouter, Redirect } from 'react-router-dom';
+import { Route, BrowserRouter } from 'react-router-dom';
 import HomePage from './HomePage';
 import About from './About';
 import Projects from './Projects';

@@ -16,16 +16,16 @@ function Landing () {
             </div>
           </div>
           <div class="row landing-page-button">
-              <button type="button" class="btn btn-warning">
               <a href="/home">
+              <button type="button" class="btn btn-warning">    
               render(Website)
-              </a>
               </button>
-              <button type="button" class="btn btn-warning">
+              </a>
               <a href={resume} download="Dhwan Shah Resume" role="button">
+              <button type="button" class="btn btn-warning">
               console.log(Resume)
-              </a>
               </button>
+              </a>
           </div>      
         </div>
         
